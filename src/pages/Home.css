@@ -1,0 +1,184 @@
+/* Home.css */
+.header-toolbar {
+    --background: #00d09c;
+    --color: white;
+  }
+  
+  .main-grid {
+    padding: 16px;
+  }
+  
+  .title-row {
+    margin-bottom: 24px;
+  }
+  
+  .main-title {
+    color: #3c4e6d;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .tab-segment {
+    --background: #f5f5f5;
+    --border-radius: 8px;
+    padding: 4px;
+    margin-bottom: 24px;
+  }
+  
+  .tab-button {
+    --border-radius: 6px;
+    --color-checked: rgb(6, 5, 5);
+    --indicator-color: #00d09c;
+    min-width: 100px;
+  }
+  
+  .tab-button::part(indicator) {
+    height: 100%;
+  }
+  
+  .calculator-card {
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-item {
+    --inner-padding-end: 0;
+    --padding-start: 0;
+    --background: transparent;
+  }
+  
+  .input-label {
+    color: #6c757d;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .currency-input,
+  .percentage-input,
+  .year-input {
+    --padding-end: 0;
+    --padding-start: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3c4e6d;
+    text-align: right;
+  }
+  
+  .result-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-top: 1px solid #e9ecef;
+  }
+  
+  .result-label {
+    color: #6c757d;
+    font-size: 14px;
+  }
+  
+  .result-value {
+    color: #3c4e6d;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .sip-button {
+    --background: #00d09c;
+    --background-activated: #00b98a;
+    --border-radius: 8px;
+    --padding-top: 20px;
+    --padding-bottom: 20px;
+    font-weight: 600;
+    text-transform: none;
+    margin-top: 24px;
+  }
+
+  /* Range Slider Styles */
+.custom-range {
+    --bar-background: #e9ecef;
+    --bar-background-active: #00d09c;
+    --bar-height: 4px;
+    --bar-border-radius: 2px;
+    --knob-background: #00d09c;
+    --knob-size: 20px;
+    padding: 12px 0;
+  }
+  
+  .input-container {
+    margin-bottom: 24px;
+  }
+  
+  .input-container ion-item {
+    margin-bottom: 8px;
+  }
+  
+  .custom-range::part(pin) {
+    background: #00d09c;
+    color: white;
+    transform: scale(0.8);
+    padding: 4px 8px;
+    border-radius: 12px;
+  }
+  
+  .custom-range::part(knob) {
+    box-shadow: 0 2px 6px rgba(0, 208, 156, 0.3);
+  }
+
+  
+  /* Search Bar Styles */
+  .search-bar {
+    --background: #f5f5f5;
+    --border-radius: 8px;
+    --box-shadow: none;
+    --placeholder-color: #6c757d;
+    --color: #3c4e6d;
+    padding: 16px;
+  }
+  
+  .search-bar ion-icon {
+    color: #00d09c;
+  }
+
+  /* Menu Styling */
+.menu-header {
+  --background: #00d09c;
+  --color: white;
+  padding: 16px;
+}
+
+.menu-item {
+  --padding-start: 16px;
+  --min-height: 48px;
+  font-size: 14px;
+  color: #3c4e6d;
+}
+
+.category-header {
+  font-weight: 600;
+  color: #00d09c !important;
+  --background: #f5f5f5;
+}
+
+.sub-item {
+  --padding-start: 40px;
+  --min-height: 40px;
+  font-size: 13px;
+}
+
+.highlight-item {
+  --color: #00d09c;
+  font-weight: 600;
+}
+
+.divider {
+  height: 1px;
+  background: #e9ecef;
+  margin: 8px 0;
+}
+
+ion-icon {
+  color: #6c757d;
+  margin-right: 12px;
+}

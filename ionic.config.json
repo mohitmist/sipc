@@ -1,0 +1,7 @@
+{
+  "name": "sipc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
